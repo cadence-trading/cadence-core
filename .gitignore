@@ -1,0 +1,22 @@
+# Runtime
+.env
+var/
+*.jsonl
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+dist/
+build/
+
+# Secrets — never commit API credentials
+*.key
+secrets/
+
+# OS / editor
+.DS_Store
+*.swp
